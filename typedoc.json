@@ -1,7 +1,5 @@
 {
-    "entryPoints":["./src/index.ts"],
-    "exclude": [
-        "**/*.spec.ts"
-    ],
+    "entryPoints": ["./src/index.ts"],
+    "exclude": ["**/*.spec.ts"],
     "out": "docs"
 }

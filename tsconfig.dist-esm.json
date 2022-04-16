@@ -5,5 +5,5 @@
         "declaration": true,
         "declarationMap": true,
         "module": "ES2020"
-    },
+    }
 }
