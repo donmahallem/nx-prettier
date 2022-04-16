@@ -1,0 +1,53 @@
+{
+    "$schema": "http://json-schema.org/schema",
+    "type": "object",
+    "cli": "nx",
+    "properties": {
+        "pattern": {
+            "oneOf": [
+                {
+                    "type": "string",
+                    "description": "Text To Echo"
+                },
+                {
+                    "type": "array",
+                    "description": "Text To Echo",
+                    "items": {
+                        "type": "string"
+                    }
+                }
+            ]
+        },
+        "configPrecedence": {
+            "type": "string",
+            "enum": ["file-override", "prefer-file", "cli-override"]
+        }
+    },
+    "oneOf": [
+        {
+            "properties": {
+                "write": {
+                    "type": "boolean",
+                    "const": true,
+                    "description": "Format files according to the provided config"
+                }
+            },
+            "additionalProperties": {
+                "check": { "const": false }
+            }
+        },
+        {
+            "properties": {
+                "check": {
+                    "type": "boolean",
+                    "const": true,
+                    "description": "Checks the provided files if they are correctly formatted"
+                }
+            },
+            "additionalProperties": {
+                "write": { "const": false }
+            }
+        }
+    ],
+    "required": ["pattern"]
+}

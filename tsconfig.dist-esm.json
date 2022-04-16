@@ -1,0 +1,9 @@
+{
+    "extends": "./tsconfig.dist.json",
+    "compilerOptions": {
+        "outDir": "./dist",
+        "declaration": true,
+        "declarationMap": true,
+        "module": "ES2020"
+    },
+}

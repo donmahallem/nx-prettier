@@ -1,0 +1,41 @@
+name: Test
+on: [push, pull_request]
+
+jobs:
+  test_project:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [ '14', '16' ]
+    name: Node ${{ matrix.node }} Tests
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v3
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node }}
+      - name: Npm install
+        run: npm ci
+      - name: Npm Lint
+        run: npm run lint
+      - name: Npm test
+        run: npm run test:coverage
+      - name: Test Docs
+        run: |
+          npm run docs
+          npm run build:readme
+      - name: Upload coverage to Codecov Monorepo
+        uses: codecov/codecov-action@v2.1.0
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          name: Test
+          fail_ci_if_error: false
+          verbose: false
+  finish:
+    needs: [test_project]
+    name: Finish Test
+    runs-on: ubuntu-latest
+    steps:
+    - name: Coveralls Finished
+      run: echo "finish"
