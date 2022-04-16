@@ -5,7 +5,6 @@
 
 import { logger } from '@nrwl/devkit';
 import { exec } from 'child_process';
-import { resolveConfig } from 'prettier';
 import { promisify } from 'util';
 import type { ExecutorContext } from '@nrwl/devkit';
 
