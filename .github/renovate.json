@@ -1,5 +1,5 @@
 {
-    "baseBranches": ["master"],
+    "baseBranches": ["main"],
     "extends": ["@donmahallem"],
     "packageRules": [
         {
