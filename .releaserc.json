@@ -6,12 +6,6 @@
                 "preset": "angular",
                 "releaseRules": [
                     {
-                        "type": "chore",
-                        "scope": "deps",
-                        "subject": "*rollup*",
-                        "release": "patch"
-                    },
-                    {
                         "type": "docs",
                         "scope": "README",
                         "release": "patch"
