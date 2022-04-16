@@ -1,7 +1,7 @@
 <!-- ⚠️ This README has been generated from the file(s) "./package_readme_blueprint.md" ⚠️-->
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/water.png)](#h1-aligncenterdonmahallemrollup-configh1)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/water.png)](#h1-aligncenterdonmahallemnx-prettierh1)
 
-# ➤ <h1 align="center">@donmahallem/rollup-config</h1>
+# ➤ <h1 align="center">@donmahallem/nx-prettier</h1>
 <p align="center">
 		<a href="https://github.com/donmahallem/rollup-config/actions?query=workflow%3ATest+branch%3Amaster"><img alt="Test" src="https://github.com/donmahallem/rollup-config/workflows/Test/badge.svg?branch=master&event=push" height="20"/></a>
 <a href="https://codecov.io/gh/donmahallem/rollup-config"><img alt="codecov" src="https://codecov.io/gh/donmahallem/rollup-config/branch/master/graph/badge.svg" height="20"/></a>
@@ -14,7 +14,7 @@
 
 
 <p align="center">
-  <b>My Rollup config. Use at your own risk!</b></br>
+  <b>Prettier executor</b></br>
   <sub><sub>
 </p>
 
@@ -29,7 +29,7 @@
 Run the following command to install the package:
 
 ```
-npm install @donmahallem/rollup-config
+npm install @donmahallem/nx-prettier
 ```
 
 
