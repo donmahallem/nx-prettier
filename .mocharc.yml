@@ -8,7 +8,7 @@ delay: false
 diff: true
 exit: false # could be expressed as "no-exit: true"
 extension:
-  - ts
+    - ts
 # fgrep and grep are mutually exclusive
 # fgrep: something
 forbid-only: false
