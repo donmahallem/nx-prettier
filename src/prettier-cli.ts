@@ -1,12 +1,13 @@
 /*
- * Package @donmahallem/rollup-config
- * Source https://github.com/donmahallem/rollup-config/
+ * Package @donmahallem/nx-prettier
+ * Source https://github.com/donmahallem/nx-prettier
  */
-import type { ExecutorContext } from '@nrwl/devkit';
+
 import { logger } from '@nrwl/devkit';
 import { exec } from 'child_process';
+import { resolveConfig } from 'prettier';
 import { promisify } from 'util';
-import {resolveConfig} from 'prettier';
+import type { ExecutorContext } from '@nrwl/devkit';
 
 export interface EchoExecutorOptions {
     pattern: string;
@@ -16,8 +17,12 @@ export interface EchoExecutorOptions {
     listDifferent?: boolean | string;
 }
 
+/**
+ * @param options
+ * @param context
+ */
 export default async function echoExecutor(options: EchoExecutorOptions, context: ExecutorContext): Promise<{ success: boolean }> {
-    let cmd: string = `prettier`;
+    let cmd = `prettier`;
     if (options?.loglevel) {
         cmd += ` --loglevel ${options.loglevel}`;
     }

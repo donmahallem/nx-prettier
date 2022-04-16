@@ -1,6 +1,6 @@
 /*
- * Package @donmahallem/rollup-config
- * Source https://github.com/donmahallem/rollup-config/
+ * Package @donmahallem/nx-prettier
+ * Source https://github.com/donmahallem/nx-prettier
  */
 
-export * from './prettier';
+export { default as default } from './prettier';

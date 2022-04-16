@@ -1,7 +1,15 @@
+/*
+ * Package @donmahallem/nx-prettier
+ * Source https://github.com/donmahallem/nx-prettier
+ */
+
 import { readFile } from 'fs/promises';
 import { check, resolveConfig } from 'prettier';
 import { Result } from './result';
 
+/**
+ * @param inpFiles
+ */
 export async function checkFiles(inpFiles: string[]): Promise<Result> {
     const result: Result = { failed: [], success: [], warn: [] };
     for (const inpFile of inpFiles) {

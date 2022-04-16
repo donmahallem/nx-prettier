@@ -25,7 +25,7 @@
         "src/*"
     ],
     "executors": "./executor.json",
-    "homepage": "https://github.com/donmahallem/rollup-config/",
+    "homepage": "https://github.com/donmahallem/nx-prettier",
     "author": {
         "name": "donmahallem",
         "email": "donmahallem@users.noreply.github.com",
@@ -33,11 +33,11 @@
     },
     "license": "Apache-2.0",
     "bugs": {
-        "url": "https://github.com/donmahallem/rollup-config/issues"
+        "url": "https://github.com/donmahallem/nx-prettier/issues"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/donmahallem/rollup-config.git"
+        "url": "https://github.com/donmahallem/nx-prettier.git"
     },
     "engines": {
         "node": ">=14"

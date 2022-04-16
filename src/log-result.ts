@@ -1,8 +1,17 @@
-import type { ExecutorContext } from '@nrwl/devkit';
+/*
+ * Package @donmahallem/nx-prettier
+ * Source https://github.com/donmahallem/nx-prettier
+ */
+
 import { logger } from '@nrwl/devkit';
 import path from 'path';
 import { Result } from './result';
+import type { ExecutorContext } from '@nrwl/devkit';
 
+/**
+ * @param res
+ * @param opts
+ */
 export function logResult(res: Result, opts: Pick<ExecutorContext, 'cwd' | 'isVerbose'>): void {
     if (res.success.length > 0 && opts.isVerbose) {
         logger.log(`Correctly formatted files:`);
