@@ -1,11 +1,4 @@
 {
     "baseBranches": ["main"],
-    "extends": ["@donmahallem"],
-    "packageRules": [
-        {
-            "matchPackagePatterns": ["@rollup/*", "rollup"],
-            "semanticCommitScope": "deps-dev",
-            "semanticCommitType": "fix"
-        }
-    ]
+    "extends": ["@donmahallem"]
 }
