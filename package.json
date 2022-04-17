@@ -22,7 +22,9 @@
     },
     "files": [
         "dist/*",
-        "src/*"
+        "src/*",
+        "cli-scheam.json",
+        "executor.json"
     ],
     "executors": "./executor.json",
     "homepage": "https://github.com/donmahallem/nx-prettier",
