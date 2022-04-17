@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/donmahallem/nx-prettier/compare/v1.0.2...v1.0.3) (2022-04-17)
+
+
+### Bug Fixes
+
+* add cli-schema.json to distributed bundle ([#15](https://github.com/donmahallem/nx-prettier/issues/15)) ([d431695](https://github.com/donmahallem/nx-prettier/commit/d431695f6ddeda191951a10fb8fbde47240288c9))
+
 ## [1.0.2](https://github.com/donmahallem/nx-prettier/compare/v1.0.1...v1.0.2) (2022-04-17)
 
 
