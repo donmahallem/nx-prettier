@@ -23,7 +23,7 @@
     "files": [
         "dist/*",
         "src/*",
-        "cli-scheam.json",
+        "cli-schema.json",
         "executor.json"
     ],
     "executors": "./executor.json",
