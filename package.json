@@ -59,7 +59,7 @@
         "@types/prettier": "2.7.0",
         "chai": "4.3.6",
         "colors": "1.4.0",
-        "eslint": "8.21.0",
+        "eslint": "8.22.0",
         "mocha": "10.0.0",
         "nyc": "15.1.0",
         "prettier": "2.7.1",
