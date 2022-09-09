@@ -1,3 +1,10 @@
+## [1.0.12](https://github.com/donmahallem/nx-prettier/compare/v1.0.11...v1.0.12) (2022-09-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency fast-glob to ^3.2.12 ([047e5df](https://github.com/donmahallem/nx-prettier/commit/047e5df32d98266f0c01b393f681d97ad9114af9))
+
 ## [1.0.11](https://github.com/donmahallem/nx-prettier/compare/v1.0.10...v1.0.11) (2022-07-11)
 
 ## [1.0.10](https://github.com/donmahallem/nx-prettier/compare/v1.0.9...v1.0.10) (2022-07-04)
