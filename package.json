@@ -74,6 +74,6 @@
         "prettier": "^2.6.2"
     },
     "dependencies": {
-        "fast-glob": "^3.2.11"
+        "fast-glob": "^3.2.12"
     }
 }
