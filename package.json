@@ -55,7 +55,7 @@
         "@semantic-release/git": "10.0.1",
         "@types/chai": "4.3.4",
         "@types/mocha": "10.0.1",
-        "@types/node": "18.14.1",
+        "@types/node": "18.14.2",
         "@types/prettier": "2.7.2",
         "chai": "4.3.7",
         "colors": "1.4.0",
