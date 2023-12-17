@@ -6,7 +6,7 @@ jobs:
         runs-on: ubuntu-latest
         strategy:
             matrix:
-                node: ['14', '16']
+                node: ['18', '20']
         name: Node ${{ matrix.node }} Tests
         steps:
             - name: Check out the repo
