@@ -17,14 +17,14 @@ export async function formatFiles(inpFiles: string[]): Promise<Result> {
         const sourceData = await readFile(inpFile, { encoding: 'utf-8' });
         try {
             if (
-                check(sourceData, {
+                await check(sourceData, {
                     ...cfg,
                     filepath: inpFile,
                 })
             ) {
                 result.success.push(inpFile);
             }
-            const formattedFile = format(sourceData, {
+            const formattedFile = await format(sourceData, {
                 ...cfg,
                 filepath: inpFile,
             });
