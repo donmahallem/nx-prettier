@@ -17,7 +17,7 @@ export async function checkFiles(inpFiles: string[]): Promise<Result> {
         const sourceData = await readFile(inpFile, { encoding: 'utf-8' });
         try {
             if (
-                check(sourceData, {
+                await check(sourceData, {
                     ...cfg,
                     filepath: inpFile,
                 })
