@@ -1,1 +1,1 @@
-extends: donmahallem/mergify-config
+extends: mergify-config
