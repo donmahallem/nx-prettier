@@ -49,7 +49,7 @@
     },
     "devDependencies": {
         "@appnest/readme": "1.2.7",
-        "@donmahallem/eslint-config": "2.0.15",
+        "@donmahallem/eslint-config": "2.0.16",
         "@nrwl/devkit": "17.2.8",
         "@semantic-release/changelog": "6.0.3",
         "@semantic-release/git": "10.0.1",
