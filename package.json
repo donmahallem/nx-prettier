@@ -50,7 +50,7 @@
     "devDependencies": {
         "@appnest/readme": "1.2.7",
         "@donmahallem/eslint-config": "2.0.22",
-        "@nrwl/devkit": "17.2.8",
+        "@nrwl/devkit": "17.3.0",
         "@semantic-release/changelog": "6.0.3",
         "@semantic-release/git": "10.0.1",
         "@types/chai": "4.3.11",
