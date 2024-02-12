@@ -1,3 +1,5 @@
+## [1.0.23](https://github.com/donmahallem/nx-prettier/compare/v1.0.22...v1.0.23) (2024-02-12)
+
 ## [1.0.22](https://github.com/donmahallem/nx-prettier/compare/v1.0.21...v1.0.22) (2024-02-05)
 
 ## [1.0.21](https://github.com/donmahallem/nx-prettier/compare/v1.0.20...v1.0.21) (2024-01-29)
