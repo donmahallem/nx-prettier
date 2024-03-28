@@ -58,7 +58,7 @@
         "@types/node": "20.11.30",
         "@types/prettier": "3.0.0",
         "@typescript-eslint/eslint-plugin": "7.4.0",
-        "chai": "4.4.1",
+        "chai": "5.1.0",
         "colors": "1.4.0",
         "eslint": "8.57.0",
         "mocha": "10.4.0",
