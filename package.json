@@ -1,6 +1,6 @@
 {
     "name": "@donmahallem/nx-prettier",
-    "version": "1.0.57",
+    "version": "1.0.58",
     "description": "Prettier executor",
     "main": "dist/cjs/index.js",
     "module": "dist/esm/index.js",
