@@ -1,4 +1,4 @@
-/*
+/**
  * Package @donmahallem/nx-prettier
  * Source https://github.com/donmahallem/nx-prettier
  */
@@ -16,19 +16,12 @@ export async function formatFiles(inpFiles: string[]): Promise<Result> {
         const cfg = await resolveConfig(inpFile, { useCache: true });
         const sourceData = await readFile(inpFile, { encoding: 'utf-8' });
         try {
-            if (
-                await check(sourceData, {
-                    ...cfg,
-                    filepath: inpFile,
-                })
-            ) {
+            if (await check(sourceData, { ...cfg, filepath: inpFile })) {
                 result.success.push(inpFile);
             }
-            const formattedFile = await format(sourceData, {
-                ...cfg,
-                filepath: inpFile,
-            });
+            const formattedFile = await format(sourceData, { ...cfg, filepath: inpFile });
             await writeFile(inpFile, formattedFile, { encoding: 'utf-8' });
+            // eslint-disable-next-line @typescript-eslint/no-unused-vars
         } catch (err: unknown) {
             result.failed.push(inpFile);
         }
