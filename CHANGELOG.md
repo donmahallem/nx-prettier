@@ -1,3 +1,17 @@
+# [2.0.0](https://github.com/donmahallem/nx-prettier/compare/v1.0.78...v2.0.0) (2025-02-10)
+
+
+### Features
+
+* raise node requirement to v20 ([#947](https://github.com/donmahallem/nx-prettier/issues/947)) ([b7fb87e](https://github.com/donmahallem/nx-prettier/commit/b7fb87ead39f5a208084d2b1b6fb697eccd19fdd))
+
+
+### BREAKING CHANGES
+
+* raising node requirement to 20
+
+* style: fix lint setup
+
 ## [1.0.78](https://github.com/donmahallem/nx-prettier/compare/v1.0.77...v1.0.78) (2025-02-10)
 
 ## [1.0.77](https://github.com/donmahallem/nx-prettier/compare/v1.0.76...v1.0.77) (2025-02-03)
