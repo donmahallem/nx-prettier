@@ -1,4 +1,4 @@
-/*
+/**
  * Package @donmahallem/nx-prettier
  * Source https://github.com/donmahallem/nx-prettier
  */

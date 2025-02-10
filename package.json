@@ -11,9 +11,9 @@
         "build:readme": "npx @appnest/readme generate --input ./package_readme_blueprint.md --config readme_config.json",
         "test": "mocha --config ./.mocharc.yml",
         "test:coverage": "nyc --nycrc-path ./.nycrc.json npm run test",
-        "lint": "eslint -c ./.eslintrc.cjs --ext .ts ./src",
+        "lint": "eslint -c ./.eslintrc.mjs ./src",
         "postlint": "prettier --config ./.prettierrc src/**/*.ts *.json .prettierrc *.yml .github/** --check",
-        "lint:fix": "eslint -c ./.eslintrc.cjs --ext .ts ./src --fix",
+        "lint:fix": "eslint -c ./.eslintrc.mjs ./src --fix",
         "postlint:fix": "prettier --config ./.prettierrc src/**/*.ts *.json .prettierrc *.yml .github/** --write",
         "docs": "typedoc --options ./typedoc.json",
         "prepublishOnly": "npm run test && npm run docs && npm run build",
@@ -42,14 +42,14 @@
         "url": "https://github.com/donmahallem/nx-prettier.git"
     },
     "engines": {
-        "node": ">=18"
+        "node": ">=20"
     },
     "publishConfig": {
         "access": "public"
     },
     "devDependencies": {
         "@appnest/readme": "1.2.7",
-        "@donmahallem/eslint-config": "2.0.74",
+        "@donmahallem/eslint-config": "2.3.0",
         "@nrwl/devkit": "19.8.4",
         "@semantic-release/changelog": "6.0.3",
         "@semantic-release/git": "10.0.1",
@@ -57,13 +57,12 @@
         "@types/mocha": "10.0.10",
         "@types/node": "22.13.1",
         "@types/prettier": "3.0.0",
-        "@typescript-eslint/eslint-plugin": "7.18.0",
+        "@typescript-eslint/eslint-plugin": "8.23.0",
         "chai": "4.5.0",
         "colors": "1.4.0",
-        "eslint": "8.57.1",
+        "eslint": "9.20.0",
         "mocha": "11.1.0",
         "nyc": "17.1.0",
-        "prettier": "3.5.0",
         "semantic-release": "24.2.2",
         "ts-node": "10.9.2",
         "tslib": "2.8.1",
