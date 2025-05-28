@@ -55,7 +55,7 @@
         "@semantic-release/git": "10.0.1",
         "@types/chai": "5.2.2",
         "@types/mocha": "10.0.10",
-        "@types/node": "22.15.21",
+        "@types/node": "22.15.23",
         "@types/prettier": "3.0.0",
         "@typescript-eslint/eslint-plugin": "8.32.1",
         "chai": "5.2.0",
