@@ -60,7 +60,7 @@
         "@typescript-eslint/eslint-plugin": "8.33.0",
         "chai": "5.2.0",
         "colors": "1.4.0",
-        "eslint": "9.27.0",
+        "eslint": "9.28.0",
         "mocha": "11.5.0",
         "nyc": "17.1.0",
         "semantic-release": "24.2.5",
